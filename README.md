@@ -23,6 +23,11 @@
 </div>
 
 <hr />
+## Prerequisites
+```
+python=3.10
+
+```
 
 ## Install
 
@@ -57,6 +62,7 @@ sudo apt install git python3-pip libeigen3-dev libsuitesparse-dev
 git clone https://github.com/PRBonn/kiss-slam.git
 cd kiss-slam
 make editable
+cmake --build .
 ```
 
 ## Citation
