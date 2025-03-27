@@ -1,3 +1,7 @@
+# Local dataset
+datasets/*
+
+
 **/*.zip
 **/slam*/**
 trajectories/**
